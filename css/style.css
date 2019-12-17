@@ -1,6 +1,7 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  color: #121212;
+  font-size: 10px; /* apply 10px to all font */
 }
 
 nav {
@@ -42,6 +43,11 @@ li {
   padding: 30px;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 article {
   padding-top: 100px;
 }
@@ -49,4 +55,34 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+/* Font under the Body is set as 10px */
+.right {
+  font-size:2em;
+}
+
+figcaption {
+  font-size: 120%;
+  line-height: normal;
+}
+
+h1 {
+  font-size: 400%;
+  line-height: 2;
+}
+
+h3 {
+  font-size: 2.2em;
+  line-height: 1.5;
+}
+
+.author {
+  font-size:1.5em;
+  line-height: 5;
+}
+
+.story-text {
+  font-size: 1.8em;
+  line-height: 1.5;
 }
